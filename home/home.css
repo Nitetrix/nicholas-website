@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(35, 35, 53);
+    transition: all 100ms;
+}
+
+.navi {
+    background: rgb(22, 22, 32);
+    border: none;
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: +1;
+}
+
+.stories {
+    background: rgb(84, 84, 117);
+    width: 100%;
+    border: none;
+    position: relative;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:120px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.storyname {
+    position: relative;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.button1 {
+    background-color: #00cccc;;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left:50px;
+}
+
+.button2 {
+    background-color: #00cccc;;
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button1:hover,
+.button2:hover {
+    background-color: aqua;
+}
+
+.story-description {
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    max-width: 20%;
+}
+.author {
+    font-size: 20px; 
+    font-weight: normal;
+    vertical-align: top;
+}
+
+
+
+

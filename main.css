@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(35, 35, 53);
+    transition: all 100ms;
+}
+.title {
+    background: rgb(22, 22, 32);
+    border: solid;
+    border: white;
+    height: 200px;
+    position: fixed;
+    top: calc(50% - 100px);
+    width: 100%;
+    left: 0px;
+}
+
+p {
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 65px;
+    margin:auto;
+    text-align: center;
+    position:absolute;
+    top:48%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.chat-text {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+    color: #fff;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.description {
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: calc(50% + 120px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+}
