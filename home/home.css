@@ -1,10 +1,15 @@
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
 body {
-    background-color: rgb(35, 35, 53);
+    background-color: rgb(73, 38, 29);
     transition: all 100ms;
 }
 
 .navi {
-    background: rgb(22, 22, 32);
+    background: rgb(38, 19, 14);
     border: none;
     height: 130px;
     position: fixed;
@@ -13,9 +18,32 @@ body {
     top: 0;
     z-index: +1;
 }
+.nav-buttons {
+    padding: 10px;
+}
 
+.nav-buttons button {
+    background-color: rgb(121, 59, 43);
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    position:relative;
+    border-radius: 10px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.nav-buttons button:hover {
+    background-color: aqua;
+}
 .stories {
-    background: rgb(84, 84, 117);
+    background: rgb(121, 59, 43);
     width: 100%;
     border: none;
     position: relative;
@@ -30,15 +58,15 @@ body {
 
 .storyname {
     position: relative;
-    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Bree Serif',serif;
     color: white;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     margin-right: 50px;
 }
 
 .button1 {
-    background-color: #00cccc;;
+    background-color: #00cccc;
     border: none;
     color: black;
     font-size: 20px;
@@ -50,7 +78,7 @@ body {
 }
 
 .button2 {
-    background-color: #00cccc;;
+    background-color: #00cccc;
     border: none;
     color: black;
     font-size: 20px;
@@ -75,7 +103,21 @@ body {
     font-weight: normal;
     vertical-align: top;
 }
-
+.navititle{
+    font-family: 'Bree Serif',serif;
+    color: white;
+    font-size: 40px;
+    margin:auto;
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    cursor: pointer;
+}
+.navititle:hover{
+    color:aqua;
+}
 
 
 

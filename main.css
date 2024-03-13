@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(35, 35, 53);
+    background-color: rgb(121, 59, 43);
     transition: all 100ms;
 }
 .title {
-    background: rgb(22, 22, 32);
+    background: rgb(38, 19, 14);
     border: solid;
     border: white;
     height: 200px;
@@ -14,7 +14,7 @@ body {
 }
 
 p {
-    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Bree Serif',serif;
     color: white;
     font-size: 65px;
     margin:auto;
@@ -33,6 +33,7 @@ p {
     font-weight: bold;
     user-select: none;
     cursor: pointer;
+    font-family:'PT Sans', sans-serif;
 }
 a {
     text-decoration: none;
@@ -40,7 +41,7 @@ a {
     cursor: pointer;
 }
 .description {
-    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Bree Serif',serif;
     color: white;
     font-size: 22px;
     position: absolute;
