@@ -5,7 +5,7 @@ $(document).ready(function(){
         $("#entire-story").toggleClass("hidden");
     });
 
-    $("#button1").click(function(){
+    $("#button1").hover(function(){
         if (!lockout1) {
             lockout1 = true;
             $(".result").removeClass("hidden"); // Remove hidden class from all results
@@ -17,7 +17,7 @@ $(document).ready(function(){
         }
     });
 
-    $("#button2").click(function(){
+    $("#button2").hover(function(){
         if (!lockout1) {
             lockout1 = true;
             $(".result").removeClass("hidden"); // Remove hidden class from all results
